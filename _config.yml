@@ -1,21 +1,21 @@
 locale                   : "en-US"
-title                    : "WowPage"
+title                    : "Zayn Ding / Homepage"
 title_separator          : "-"
-name                     : "Your Name"
-description              : &description "A clean academic homepage template."
-url                      : ""
+name                     : "Zihang Ding (¶¡è÷º½)"
+description              : &description "ÐÐÔ¶×ÔåÇ£¬µÇ¸ß×Ô±°"
+url                      : "https://zaynding.github.io"
 baseurl                  : ""
-repository               : ""
+repository               : "zaynding/zaynding.github.io"
 
 author:
-  avatar           : "1.png"
-  name             : "Your Name"
-  pronouns         :
-  bio              : "Student and researcher."
-  location         : "City, Country"
-  employer         : "Institution or Company"
-  uri              :
-  email            : "name@example.com"
+  avatar           : "1.jpg"
+  name             : "Zihang Ding (¶¡è÷º½)"
+  pronouns         : "He/Him"
+  bio              : "ÐÐÔ¶×ÔåÇ£¬µÇ¸ß×Ô±°"
+  location         : "Xi'an, China"
+  employer         : "Xidian University"
+  uri              : "https://zaynding.github.io"
+  email            : "zuoyuan34108@gmail.com"
 
   arxiv            :
   googlescholar    :
@@ -28,16 +28,16 @@ author:
   bitbucket        :
   codepen          :
   dribbble         :
-  github           :
+  github           : "zaynding"
   kaggle           :
   stackoverflow    :
 
-  WeChat           :
+  WeChat           : "/contact/"
   linkedin         :
   bilibili         :
   twitter          :
   youtube          :
-  zhihu            :
+  zhihu            : "https://www.zhihu.com/people/auro-49-19"
   XiaoHongShu      :
 
 teaser                   :
