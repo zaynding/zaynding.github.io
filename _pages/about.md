@@ -10,7 +10,7 @@ redirect_from:
 
 <h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px"> Welcome to my Homepage!</h1>
 
-I am **Zihang Ding (丁梓航)**, an undergraduate student in Information Engineering at Xidian University.
+I am **Zihang Ding**, an undergraduate student in Information Engineering at Xidian University.
 
 My current interests include **embodied intelligence, multimodal perception, large language models, and reliable AI systems**. I enjoy turning ideas into working systems, especially when algorithms need to interact with real hardware and real-world environments.
 

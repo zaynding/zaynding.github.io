@@ -1,15 +1,15 @@
 locale                   : "en-US"
 title                    : "Zayn Ding / Homepage"
 title_separator          : "-"
-name                     : "Zihang Ding (丁梓航)"
+name                     : "Zihang Ding 丁梓航"
 description              : &description "行远自迩，登高自卑"
 url                      : "https://zaynding.github.io"
 baseurl                  : ""
 repository               : "zaynding/zaynding.github.io"
 
 author:
-  avatar           : "1.jpg"
-  name             : "Zihang Ding (丁梓航)"
+  avatar           : "1.png"
+  name             : "Zihang Ding 丁梓航"
   pronouns         : "He/Him"
   bio              : "行远自迩，登高自卑"
   location         : "Xi'an, China"
