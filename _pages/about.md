@@ -7,11 +7,11 @@ redirect_from:
 ---
 {% include about-homepage-header.html %}
 
-I am an undergraduate student majoring in Information Engineering at Xidian University (2025.9 - 2029.6).
+I am an undergraduate in Information Engineering at Xidian University (2025-2029).
 
-My current interests include embodied intelligence, multimodal visual perception, trustworthy artificial intelligence, probabilistic modeling, and robust learning.
+My interests lie in embodied intelligence, multimodal perception, and trustworthy machine learning.
 
-I enjoy turning ideas into working systems, especially when algorithms need to interact with real hardware and real-world environments.
+I enjoy building end-to-end systems that connect perception, learning, and real-world hardware.
 
 News
 ---------------
@@ -27,91 +27,6 @@ News
     </li>
   </ul>
 </section>
-
-Experience
---------------
-
-<div class="experience-container">
-  <div class="experience-card">
-      <img src="https://selen-suyue.github.io/images/XDU.png" alt="Xidian University logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>Xidian University</strong><br>
-          Sep 2025 - June 2029<br>
-          B.Eng. in Information Engineering<br>
-          School of Telecommunications Engineering
-      </div>
-  </div>
-
-  <div class="experience-card">
-      <img src="https://selen-suyue.github.io/images/dobot.png" alt="Robot arm" class="experience-logo">
-      <div class="experience-info">
-          <strong>Embodied Intelligence Practice</strong><br>
-          LeRobot platform<br>
-          Robot assembly, calibration, data collection, model training, and deployment
-      </div>
-  </div>
-</div>
-
-Publications
---------------
-
-<div class="publication-card featured">
-  <div style="display: flex; align-items: center;">
-    <img src="https://selen-suyue.github.io/images/dobot.png" alt="LeRobot manipulation" width="200" height="120" style="margin-right: 20px; object-fit: cover;">
-    <div>
-      <strong>Intelligent Robot Manipulation with LeRobot</strong><br>
-      <i style="font-size: 13px;"><span class="self-author">Zihang Ding</span></i><br>
-      Built an end-to-end embodied intelligence platform for real-world manipulation, covering hardware assembly, servo and camera calibration, data collection, model training, inference, and evaluation.<br>
-      <b><i style="color:#83a1c7;">Embodied Intelligence &nbsp;</i></b>
-    </div>
-  </div>
-</div>
-
-<div class="publication-card">
-  <div style="display: flex; align-items: center;">
-    <img src="https://selen-suyue.github.io/images/U_pre.png" alt="Computer vision practice" width="200" height="120" style="margin-right: 20px; object-fit: cover;">
-    <div>
-      <strong>Classic Computer Vision Model Reproduction</strong><br>
-      <i style="font-size: 13px;"><span class="self-author">Zihang Ding</span></i><br>
-      Reproduced AlexNet, VGG, and ResNet from scratch with PyTorch. Completed preprocessing, training, validation, and single-image inference, reaching approximately 93% accuracy.<br>
-      <b><i style="color:#83a1c7;">Deep Learning &nbsp;</i></b>
-    </div>
-  </div>
-</div>
-
-<div class="publication-card">
-  <div style="display: flex; align-items: center;">
-    <img src="https://selen-suyue.github.io/images/FGSM3D.png" alt="Scientific image detection" width="200" height="120" style="margin-right: 20px; object-fit: cover;">
-    <div>
-      <strong>Scientific Image Object Detection</strong><br>
-      <i style="font-size: 13px;"><span class="self-author">Zihang Ding</span></i><br>
-      Annotated high-noise gamma-H2AX images with Label Studio, constructed a standard YOLO dataset, and trained a lightweight YOLO11 model with accuracy and recall evaluation.<br>
-      <b><i style="color:#83a1c7;">Computer Vision &nbsp;</i></b>
-    </div>
-  </div>
-</div>
-
-Projects
---------
-<div class="project-card">
-  <div style="display: flex; align-items: center;">
-    <img src="https://selen-suyue.github.io/images/maniunicon.png" alt="LeRobot project" width="200" height="120" style="margin-right: 20px; object-fit: cover;">
-    <div>
-      <strong>LeRobot Full-Stack Manipulation Platform</strong><br>
-      Designed a node-based visual workflow supporting drag-and-drop nodes, connections, and real-time data-flow display. Connected graphical task configuration to source compilation, system execution, and robot task deployment.
-    </div>
-  </div>
-</div>
-
-<div class="project-card">
-  <div style="display: flex; align-items: center;">
-    <img src="https://selen-suyue.github.io/images/U_pre_pipeline.png" alt="Vision-guided tracking" width="200" height="120" style="margin-right: 20px; object-fit: cover;">
-    <div>
-      <strong>Vision-Guided Gimbal Tracking</strong><br>
-      Developed target recognition, image-coordinate extraction, pixel-error calculation, Raspberry Pi-to-controller communication, closed-loop tracking, calibration, and system debugging.
-    </div>
-  </div>
-</div>
 
 Awards
 --------
@@ -135,6 +50,72 @@ Awards
     </li>
   </ul>
 </section>
+
+Projects
+--------
+<div class="publication-card featured">
+  <div style="display: flex; align-items: center;">
+    <img src="https://selen-suyue.github.io/images/maniunicon.png" alt="LeRobot project" width="200" height="120" style="margin-right: 20px; object-fit: cover;">
+    <div>
+      <strong>LeRobot End-to-End Manipulation Platform</strong><br>
+      Built an end-to-end robot manipulation system using LeRobot, covering 3D-printed hardware integration, servo and camera calibration, demonstration collection, policy training, inference, and evaluation on Ubuntu 22.04.<br>
+      I was responsible for arm assembly and low-level calibration, and developed a node-based workflow interface that connects task configuration, code generation, system execution, and robot deployment. The main challenge was integrating hardware, learning, and graphical configuration into one working pipeline for non-specialist users.<br>
+      <b><i style="color:#83a1c7;">Embodied Intelligence &middot; Robot Learning &middot; System Integration</i></b><br>
+      <em>First Prize, Northwest Region, China Collegiate Computing Competition &middot; Grand Prize, Xinghuo Cup</em>
+    </div>
+  </div>
+</div>
+
+<div class="project-card">
+  <div style="display: flex; align-items: center;">
+    <img src="https://selen-suyue.github.io/images/U_pre_pipeline.png" alt="Vision-guided tracking" width="200" height="120" style="margin-right: 20px; object-fit: cover;">
+    <div>
+      <strong>Vision-Guided Gimbal Tracking System</strong><br>
+      Built a closed-loop target-tracking system integrating YOLO-based recognition, image-coordinate error estimation, Raspberry Pi-MCU communication, and two-axis gimbal control.<br>
+      I was responsible for the vision-control module and converted pixel error into control input. Improved tracking robustness through camera calibration, multi-frame target confirmation, target-loss handling, and closed-loop debugging.<br>
+      <b><i style="color:#83a1c7;">Computer Vision &middot; Embedded Systems &middot; Closed-Loop Control</i></b>
+    </div>
+  </div>
+</div>
+
+<div class="project-card">
+  <div style="display: flex; align-items: center;">
+    <img src="https://selen-suyue.github.io/images/FGSM3D.png" alt="Scientific image detection" width="200" height="120" style="margin-right: 20px; object-fit: cover;">
+    <div>
+      <strong>&gamma;-H2AX Microscopy Object Detection</strong><br>
+      Constructed a YOLO11 dataset for high-noise &gamma;-H2AX microscopy images using Label Studio and trained a lightweight detector for automated object localization.<br>
+      I independently completed precise bounding-box annotation and YOLO-format dataset construction. Evaluated precision, recall, and representative failure cases under varying image quality.<br>
+      <b><i style="color:#83a1c7;">Scientific Imaging &middot; Object Detection &middot; Dataset Construction</i></b>
+    </div>
+  </div>
+</div>
+
+<div class="project-card">
+  <div style="display: flex; align-items: center;">
+    <img src="https://selen-suyue.github.io/images/U_pre.png" alt="CNN reproduction" width="200" height="120" style="margin-right: 20px; object-fit: cover;">
+    <div>
+      <strong>AlexNet / VGG / ResNet Reproduction</strong><br>
+      Independently implemented AlexNet, VGG, and ResNet from scratch in PyTorch and completed the full pipeline from preprocessing and dataset splitting to training, validation, and single-image inference.<br>
+      Achieved approximately 93% classification accuracy. Investigated unstable VGG convergence and improved training stability and test accuracy by introducing Kaiming initialization.<br>
+      <b><i style="color:#83a1c7;">PyTorch &middot; Image Classification &middot; Model Training</i></b>
+    </div>
+  </div>
+</div>
+
+Experience
+--------------
+
+<div class="experience-container">
+  <div class="experience-card">
+      <img src="https://selen-suyue.github.io/images/XDU.png" alt="Xidian University logo" class="experience-logo">
+      <div class="experience-info">
+          <strong>Xidian University</strong><br>
+          Sep 2025 - June 2029<br>
+          B.Eng. in Information Engineering<br>
+          School of Telecommunications Engineering
+      </div>
+  </div>
+</div>
 
 Skills
 --------
