@@ -126,9 +126,9 @@ Skills
 --------
 <section class="profile-list-section">
   <ul class="profile-list">
-    <li class="profile-list__item"><span class="profile-list__date">Code</span><span class="profile-list__content">Python, C, PyTorch, OpenCV</span></li>
-    <li class="profile-list__item"><span class="profile-list__date">AI</span><span class="profile-list__content">Model training and evaluation, object detection, data annotation</span></li>
-    <li class="profile-list__item"><span class="profile-list__date">System</span><span class="profile-list__content">Ubuntu, command-line tools, embedded development, hardware debugging</span></li>
-    <li class="profile-list__item"><span class="profile-list__date">Robot</span><span class="profile-list__content">Assembly, sensor setup, calibration, closed-loop control, deployment</span></li>
+    <li class="profile-list__item"><span class="profile-list__date">Programming</span><span class="profile-list__content">Python, C</span></li>
+    <li class="profile-list__item"><span class="profile-list__date">AI &amp; Vision</span><span class="profile-list__content">PyTorch, OpenCV, YOLO, model training, evaluation, and data annotation</span></li>
+    <li class="profile-list__item"><span class="profile-list__date">Robotics</span><span class="profile-list__content">STM32, Raspberry Pi, sensor and camera calibration, communication, closed-loop control, and system integration</span></li>
+    <li class="profile-list__item"><span class="profile-list__date">Tools</span><span class="profile-list__content">Linux, Git/GitHub, Label Studio</span></li>
   </ul>
 </section>
