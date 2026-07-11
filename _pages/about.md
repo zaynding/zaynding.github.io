@@ -28,28 +28,20 @@ News
   </ul>
 </section>
 
-Awards
---------
-<section class="profile-list-section">
-  <ul class="profile-list">
-    <li class="profile-list__item">
-      <span class="profile-list__date">2026/05</span>
-      <span class="profile-list__content">Second Prize, TI Cup Shaanxi Intercollegiate Engineering League</span>
-    </li>
-    <li class="profile-list__item">
-      <span class="profile-list__date">2026/05</span>
-      <span class="profile-list__content">Grand Prize, TI Cup Electronic Design Competition, Xidian University</span>
-    </li>
-    <li class="profile-list__item">
-      <span class="profile-list__date">2026</span>
-      <span class="profile-list__content">First Prize, Northwest Region, China Collegiate Computing Competition</span>
-    </li>
-    <li class="profile-list__item">
-      <span class="profile-list__date">2026</span>
-      <span class="profile-list__content">Grand Prize, Xinghuo Cup, School of Telecommunications Engineering</span>
-    </li>
-  </ul>
-</section>
+Experience
+--------------
+
+<div class="experience-container">
+  <div class="experience-card">
+      <img src="https://selen-suyue.github.io/images/XDU.png" alt="Xidian University logo" class="experience-logo">
+      <div class="experience-info">
+          <strong>Xidian University</strong><br>
+          Sep 2025 - June 2029<br>
+          B.Eng. in Information Engineering<br>
+          School of Telecommunications Engineering
+      </div>
+  </div>
+</div>
 
 Projects
 --------
@@ -58,10 +50,12 @@ Projects
     <img src="https://selen-suyue.github.io/images/maniunicon.png" alt="LeRobot project" width="200" height="120" style="margin-right: 20px; object-fit: cover;">
     <div>
       <strong>LeRobot End-to-End Manipulation Platform</strong><br>
-      Built an end-to-end robot manipulation system using LeRobot, covering 3D-printed hardware integration, servo and camera calibration, demonstration collection, policy training, inference, and evaluation on Ubuntu 22.04.<br>
-      I was responsible for arm assembly and low-level calibration, and developed a node-based workflow interface that connects task configuration, code generation, system execution, and robot deployment. The main challenge was integrating hardware, learning, and graphical configuration into one working pipeline for non-specialist users.<br>
+      Built an end-to-end robot manipulation platform using LeRobot, covering hardware integration, servo and camera calibration, demonstration collection, policy training, inference, and evaluation.<br><br>
+      Integrated a node-based workflow interface with task configuration, code generation, system execution, and robot deployment, enabling non-specialist users to operate the complete pipeline.<br><br>
+      <strong>Role:</strong> Mechanical assembly, low-level calibration, workflow development, and system integration.<br>
       <b><i style="color:#83a1c7;">Embodied Intelligence &middot; Robot Learning &middot; System Integration</i></b><br>
-      <em>First Prize, Northwest Region, China Collegiate Computing Competition &middot; Grand Prize, Xinghuo Cup</em>
+      <em>First Prize, Northwest Region, China Collegiate Computing Competition</em><br>
+      <em>Grand Prize, Xinghuo Cup</em>
     </div>
   </div>
 </div>
@@ -90,32 +84,43 @@ Projects
   </div>
 </div>
 
-<div class="project-card">
-  <div style="display: flex; align-items: center;">
-    <img src="https://selen-suyue.github.io/images/U_pre.png" alt="CNN reproduction" width="200" height="120" style="margin-right: 20px; object-fit: cover;">
-    <div>
-      <strong>AlexNet / VGG / ResNet Reproduction</strong><br>
-      Independently implemented AlexNet, VGG, and ResNet from scratch in PyTorch and completed the full pipeline from preprocessing and dataset splitting to training, validation, and single-image inference.<br>
-      Achieved approximately 93% classification accuracy. Investigated unstable VGG convergence and improved training stability and test accuracy by introducing Kaiming initialization.<br>
-      <b><i style="color:#83a1c7;">PyTorch &middot; Image Classification &middot; Model Training</i></b>
-    </div>
-  </div>
-</div>
+<h3>Additional Implementations</h3>
+<section class="profile-list-section">
+  <ul class="profile-list">
+    <li class="profile-list__item">
+      <span class="profile-list__date">CNN</span>
+      <span class="profile-list__content">
+        <strong>CNN Architecture Reproduction</strong><br>
+        Implemented AlexNet, VGG, and ResNet from scratch in PyTorch using ImageNet and a self-built dataset, covering preprocessing, training, validation, checkpointing, and single-image inference.<br>
+        Improved unstable VGG training through Kaiming initialization, with test accuracy reaching approximately 93%.<br>
+        <i>PyTorch &middot; Image Classification &middot; Model Reproduction</i>
+      </span>
+    </li>
+  </ul>
+</section>
 
-Experience
---------------
-
-<div class="experience-container">
-  <div class="experience-card">
-      <img src="https://selen-suyue.github.io/images/XDU.png" alt="Xidian University logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>Xidian University</strong><br>
-          Sep 2025 - June 2029<br>
-          B.Eng. in Information Engineering<br>
-          School of Telecommunications Engineering
-      </div>
-  </div>
-</div>
+Awards
+--------
+<section class="profile-list-section">
+  <ul class="profile-list">
+    <li class="profile-list__item">
+      <span class="profile-list__date">2026/05</span>
+      <span class="profile-list__content">Second Prize, TI Cup Shaanxi Intercollegiate Engineering League</span>
+    </li>
+    <li class="profile-list__item">
+      <span class="profile-list__date">2026/05</span>
+      <span class="profile-list__content">Grand Prize, TI Cup Electronic Design Competition, Xidian University</span>
+    </li>
+    <li class="profile-list__item">
+      <span class="profile-list__date">2026</span>
+      <span class="profile-list__content">First Prize, Northwest Region, China Collegiate Computing Competition</span>
+    </li>
+    <li class="profile-list__item">
+      <span class="profile-list__date">2026</span>
+      <span class="profile-list__content">Grand Prize, Xinghuo Cup, School of Telecommunications Engineering</span>
+    </li>
+  </ul>
+</section>
 
 Skills
 --------
