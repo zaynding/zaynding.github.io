@@ -47,7 +47,9 @@ Projects
 --------
 <div class="publication-card featured">
   <div style="display: flex; align-items: center;">
-    <img src="https://selen-suyue.github.io/images/maniunicon.png" alt="LeRobot project" width="200" height="120" style="margin-right: 20px; object-fit: cover;">
+    <video width="200" height="120" style="margin-right: 20px; border-radius: 8px; object-fit: cover;" autoplay loop muted playsinline preload="metadata" aria-label="LeRobot manipulation demo">
+      <source src="images/lerobot.mp4" type="video/mp4">
+    </video>
     <div>
       <strong>LeRobot End-to-End Manipulation Platform</strong><br>
       Built an end-to-end robot manipulation platform using LeRobot, covering hardware integration, servo and camera calibration, demonstration collection, policy training, inference, and evaluation.<br><br>
@@ -62,7 +64,7 @@ Projects
 
 <div class="project-card">
   <div style="display: flex; align-items: center;">
-    <img src="https://selen-suyue.github.io/images/U_pre_pipeline.png" alt="Vision-guided tracking" width="200" height="120" style="margin-right: 20px; object-fit: cover;">
+    <img src="images/gimbal_car.jpg" alt="Vision-guided gimbal tracking car" width="200" height="120" style="margin-right: 20px; object-fit: cover;">
     <div>
       <strong>Vision-Guided Gimbal Tracking System</strong><br>
       Built a closed-loop target-tracking system integrating YOLO-based recognition, image-coordinate error estimation, Raspberry Pi-MCU communication, and two-axis gimbal control.<br>
@@ -74,7 +76,10 @@ Projects
 
 <div class="project-card">
   <div style="display: flex; align-items: center;">
-    <img src="https://selen-suyue.github.io/images/FGSM3D.png" alt="Scientific image detection" width="200" height="120" style="margin-right: 20px; object-fit: cover;">
+    <div class="pub-media-rotator" data-interval="2000" style="position: relative; width: 200px; height: 120px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="images/yh2ax1.png" alt="Gamma-H2AX dataset annotation" style="width: 200px; height: 120px; object-fit: cover; display: block;">
+      <img src="images/yh2ax2.png" alt="Gamma-H2AX detection result" style="width: 200px; height: 120px; object-fit: cover; display: none;">
+    </div>
     <div>
       <strong>&gamma;-H2AX Microscopy Object Detection</strong><br>
       Constructed a YOLO11 dataset for high-noise &gamma;-H2AX microscopy images using Label Studio and trained a lightweight detector for automated object localization.<br>
@@ -98,6 +103,8 @@ Projects
     </li>
   </ul>
 </section>
+
+<script src="assets/js/pub_media_rotator.js"></script>
 
 Awards
 --------
