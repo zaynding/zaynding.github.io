@@ -9,9 +9,9 @@ redirect_from:
 
 I am an undergraduate in Information Engineering at Xidian University (2025-2029).
 
-My interests lie in embodied intelligence, multimodal perception, and trustworthy machine learning.
+My interests lie in embodied intelligence, multimodal perception, and reliable AI systems.
 
-I enjoy building end-to-end systems that connect perception, learning, and real-world hardware.
+I am interested in building reliable intelligent systems that connect multimodal perception, learning, and real-world deployment.
 
 News
 ---------------
