@@ -13,21 +13,6 @@ My interests lie in embodied intelligence, multimodal perception, and reliable A
 
 I am interested in building reliable intelligent systems that connect multimodal perception, learning, and real-world deployment.
 
-News
----------------
-<section class="profile-list-section">
-  <ul class="profile-list">
-    <li class="profile-list__item">
-      <span class="profile-list__date">2026/05</span>
-      <span class="profile-list__content">Won the Second Prize in the TI Cup Shaanxi Intercollegiate Engineering League.</span>
-    </li>
-    <li class="profile-list__item">
-      <span class="profile-list__date">2026/05</span>
-      <span class="profile-list__content">Won the Grand Prize in the TI Cup Electronic Design Competition at Xidian University.</span>
-    </li>
-  </ul>
-</section>
-
 Experience
 --------------
 
@@ -74,18 +59,23 @@ Projects
   </div>
 </div>
 
-<div class="project-card">
-  <div style="display: flex; align-items: center;">
-    <a class="project-chart" href="{{ '/images/baseline_rope_prenorm.png' | relative_url }}" aria-label="View full-size TinyStories training loss and perplexity curves">
-      <img src="{{ '/images/baseline_rope_prenorm.png' | relative_url }}" alt="TinyStories baseline with RoPE and pre-norm: training and validation loss curves, with final validation loss of 1.7700 and perplexity of 5.87" width="4500" height="1650" loading="lazy">
-    </a>
-    <div>
-      <strong>Decoder-Only Transformer Implementation &amp; Training (Stanford CS336 Assignment 1)</strong><br>
-      <strong>Theory:</strong> Studied Transformer architecture, self-attention, and positional encoding through Stanford CS336 to understand the foundations of language model pretraining.<br>
-      <strong>Model:</strong> Implemented a complete decoder-only Transformer from scratch in PyTorch, including multi-head attention, RoPE rotary positional embeddings, RMSNorm, and SwiGLU.<br>
-      <strong>Training:</strong> Independently implemented a BPE tokenizer, cross-entropy loss, AdamW optimizer, and learning rate scheduling, building an end-to-end pipeline for data processing, training, and checkpoint saving and loading.<br>
-      <strong>Evaluation:</strong> Trained and validated on TinyStories, analyzing loss curves and generated text to study convergence, training stability, and hyperparameter effects. The RoPE + pre-norm baseline reached a validation loss of 1.7700 and perplexity of 5.87 at 5,000 steps.<br>
-      <b><i style="color:#83a1c7;">PyTorch &middot; Language Model Pretraining &middot; Transformer Implementation</i></b>
+<div class="project-card transformer-project">
+  <h3 class="transformer-project__title">Decoder-Only Transformer Implementation &amp; Training <span>(Stanford CS336 Assignment 1)</span></h3>
+  <div class="transformer-project__body">
+    <div class="transformer-project__charts">
+      <a href="{{ '/images/baseline_rope_prenorm_loss.png' | relative_url }}" aria-label="View full-size TinyStories training and validation loss curves">
+        <img src="{{ '/images/baseline_rope_prenorm_loss.png' | relative_url }}" alt="TinyStories training and validation loss curves; validation loss reaches 1.7700 at 5,000 steps" width="2250" height="1650" loading="lazy">
+      </a>
+      <a href="{{ '/images/baseline_rope_prenorm_perplexity.png' | relative_url }}" aria-label="View full-size TinyStories perplexity curves">
+        <img src="{{ '/images/baseline_rope_prenorm_perplexity.png' | relative_url }}" alt="TinyStories training and validation perplexity curves; validation perplexity reaches 5.87 at 5,000 steps" width="2250" height="1650" loading="lazy">
+      </a>
+    </div>
+    <div class="transformer-project__description">
+      <p><strong>Theory:</strong> Studied Transformer architecture, self-attention, and positional encoding through Stanford CS336.</p>
+      <p><strong>Model:</strong> Built a decoder-only Transformer from scratch in PyTorch, including multi-head attention, RoPE, RMSNorm, and SwiGLU.</p>
+      <p><strong>Training:</strong> Implemented a BPE tokenizer, cross-entropy loss, AdamW, and learning rate scheduling, with a complete data processing, training, and checkpointing pipeline.</p>
+      <p><strong>Evaluation:</strong> Trained on TinyStories and analyzed loss, generated text, convergence, stability, and hyperparameter effects. The RoPE + pre-norm baseline achieved <strong>1.7700 validation loss</strong> and <strong>5.87 perplexity</strong> at 5,000 steps.</p>
+      <p class="transformer-project__tags">PyTorch &middot; Language Model Pretraining &middot; Transformer Implementation</p>
     </div>
   </div>
 </div>
