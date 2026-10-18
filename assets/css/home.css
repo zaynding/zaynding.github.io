@@ -308,6 +308,20 @@
         box-shadow: 0 8px 16px rgba(0,0,0,0.1);
     }
 
+    .project-chart {
+        display: block;
+        flex: 0 0 200px;
+        width: 200px;
+        margin-right: 20px;
+    }
+
+    .project-chart img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
       @media (max-width: 720px) {
         .publication-card,
         .project-card {
@@ -320,6 +334,13 @@
             flex-direction: column;
             align-items: stretch !important;
             width: 100%;
+        }
+
+        .project-chart {
+            flex: 0 0 auto;
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 12px;
         }
 
         .publication-card .pub-media-rotator,

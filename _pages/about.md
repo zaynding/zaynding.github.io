@@ -76,6 +76,22 @@ Projects
 
 <div class="project-card">
   <div style="display: flex; align-items: center;">
+    <a class="project-chart" href="{{ '/images/baseline_rope_prenorm.png' | relative_url }}" aria-label="View full-size TinyStories training loss and perplexity curves">
+      <img src="{{ '/images/baseline_rope_prenorm.png' | relative_url }}" alt="TinyStories baseline with RoPE and pre-norm: training and validation loss curves, with final validation loss of 1.7700 and perplexity of 5.87" width="4500" height="1650" loading="lazy">
+    </a>
+    <div>
+      <strong>Decoder-Only Transformer Implementation &amp; Training (Stanford CS336 Assignment 1)</strong><br>
+      <strong>Theory:</strong> Studied Transformer architecture, self-attention, and positional encoding through Stanford CS336 to understand the foundations of language model pretraining.<br>
+      <strong>Model:</strong> Implemented a complete decoder-only Transformer from scratch in PyTorch, including multi-head attention, RoPE rotary positional embeddings, RMSNorm, and SwiGLU.<br>
+      <strong>Training:</strong> Independently implemented a BPE tokenizer, cross-entropy loss, AdamW optimizer, and learning rate scheduling, building an end-to-end pipeline for data processing, training, and checkpoint saving and loading.<br>
+      <strong>Evaluation:</strong> Trained and validated on TinyStories, analyzing loss curves and generated text to study convergence, training stability, and hyperparameter effects. The RoPE + pre-norm baseline reached a validation loss of 1.7700 and perplexity of 5.87 at 5,000 steps.<br>
+      <b><i style="color:#83a1c7;">PyTorch &middot; Language Model Pretraining &middot; Transformer Implementation</i></b>
+    </div>
+  </div>
+</div>
+
+<div class="project-card">
+  <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="2000" style="position: relative; width: 200px; height: 120px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
       <img src="images/yh2ax1.png" alt="Gamma-H2AX dataset annotation" style="width: 200px; height: 120px; object-fit: cover; display: block;">
       <img src="images/yh2ax2.png" alt="Gamma-H2AX detection result" style="width: 200px; height: 120px; object-fit: cover; display: none;">
@@ -110,6 +126,10 @@ Awards
 --------
 <section class="profile-list-section">
   <ul class="profile-list">
+    <li class="profile-list__item">
+      <span class="profile-list__date">2026/08</span>
+      <span class="profile-list__content">Provincial Second Prize, TI Cup Analog and Mixed-Signal Circuit Application Design Competition</span>
+    </li>
     <li class="profile-list__item">
       <span class="profile-list__date">2026/05</span>
       <span class="profile-list__content">Second Prize, TI Cup Shaanxi Intercollegiate Engineering League</span>
